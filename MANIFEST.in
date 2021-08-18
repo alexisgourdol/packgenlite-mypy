@@ -1,2 +1,2 @@
-graft packgenlite
+graft packgenmypy
 global-exclude *.py[cod] __pycache__ *.so

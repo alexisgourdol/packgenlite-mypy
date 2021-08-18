@@ -6,20 +6,17 @@ import pandas as pd
 
 
 def get_data():
-    """ Create data
-    """
+    """Create data"""
     return "tons of data"
 
 
 def clean_data(data):
-    """ clean data
-    """
+    """clean data"""
     return data.upper()
 
 
 def make_result(df, filename):
-    """ write output result in filename
-    """
+    """write output result in filename"""
     df.drop(["datetime", "timestamp", "score_value"], axis=1, inplace=True)
     df["player"] = df.player.str.upper()
     df.to_csv(filename)
@@ -29,9 +26,9 @@ def make_result(df, filename):
 if __name__ == "__main__":
     # For introspections purpose to quickly get this functions on ipython
     # with data
-    import packgenlite
+    import packgenmypy
 
-    datapath = dirname(abspath(packgenlite.__file__)) + "/data"
+    datapath = dirname(abspath(packgenmypy.__file__)) + "/data"
     data = "{}/data.csv".format(datapath)
     df = pd.read_csv(data)
     data = get_data()

@@ -1,23 +1,23 @@
-# packgenlite - Python package builder
+# packgenmypy - Python package builder
 
 This package adds type checking with `mypy`to the original **packgenlite** package by krokrob (https://github.com/krokrob/packgenlite.git)
 
 It is a meta-package that provide python libs for projects
-and mainly `packgenlite` script.
+and mainly `packgenmypy` script.
 
-`packgenlite` create a Python package template.
+`packgenmypy` create a Python package template.
 
-## Install `packgenlite`
+## Install `packgenmypy`
 ```bash
-pip install git+https://github.com/krokrob/packgenlite.git
+pip install git+https://github.com/alexisgourdol/packgenlite-mypy.git
 ```
 
 ## Create a `newpkgname` package
 
-Use `packgenlite` to create a new python package:
+Use `packgenmypy` to create a new python package:
 
 ```bash
-packgenlite newpkgname
+packgenmypy newpkgname
 ```
 
 Check that the package has been created:
