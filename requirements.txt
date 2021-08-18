@@ -4,4 +4,3 @@ wheel>=0.29
 setuptools_scm
 future
 pandas
-python-gitlab
