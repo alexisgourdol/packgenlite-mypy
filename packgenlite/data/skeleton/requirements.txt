@@ -9,6 +9,10 @@ numpy
 pandas
 scikit-learn
 
+# type checker
+pandas-stubs
+mypy
+
 # tests/linter
 black
 coverage

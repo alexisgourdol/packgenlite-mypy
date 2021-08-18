@@ -1,6 +1,8 @@
 # packgenlite - Python package builder
 
-This package is a meta-package that provide python libs for projects
+This package adds type checking with `mypy`to the original **packgenlite** package by krokrob (https://github.com/krokrob/packgenlite.git)
+
+It is a meta-package that provide python libs for projects
 and mainly `packgenlite` script.
 
 `packgenlite` create a Python package template.
